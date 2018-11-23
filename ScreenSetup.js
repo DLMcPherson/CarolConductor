@@ -23,19 +23,19 @@ stage.addChild(graphics)
 
   // Current Chord Indicator
 var currentChord = new PIXI.Text('',{font : '48px Gill Sans', fill : 0x000000});
-currentChord.x = 500
+currentChord.x = 550
 currentChord.y = 30
 stage.addChild(currentChord)
   // Upcoming Chord Indicator
-var nextChord = new PIXI.Text('',{font : '36px Gill Sans', fill : 0x000000});
-nextChord.x = 600
+var nextChord = new PIXI.Text('',{font : '36px Gill Sans', fill : 0x999999});
+nextChord.x = 650
 nextChord.y = 30
 stage.addChild(nextChord)
   // Chord Readout
 var chordReadout = []
 for(var ii = 0 ; ii<4; ii++) {
     chordReadout[ii] = new PIXI.Text('',{font : '36px Gill Sans', fill : 0x077f4d, align: 'left'});
-    chordReadout[ii].x = 120*ii
+    chordReadout[ii].x = 130*ii
     chordReadout[ii].y = 50
     stage.addChild(chordReadout[ii])
 }
@@ -43,7 +43,7 @@ for(var ii = 0 ; ii<4; ii++) {
 var wordReadout = []
 for(var ii = 0 ; ii<4; ii++) {
     wordReadout[ii] = new PIXI.Text('1',{font : '36px Gill Sans', fill : 0x077f4d, align: 'left'});
-    wordReadout[ii].x = 120*ii
+    wordReadout[ii].x = 130*ii
     wordReadout[ii].y = 0
     stage.addChild(wordReadout[ii])
 }

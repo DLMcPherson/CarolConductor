@@ -51,8 +51,8 @@ window.setInterval(function() {
   // Display the moving lyric indicator
   graphics.clear()
   graphics.lineStyle(5, 0x078752);
-  graphics.moveTo(0+beatInsideBar*120,45)
-  graphics.lineTo(120+beatInsideBar*120,45)
+  graphics.moveTo(0+beatInsideBar*130,45)
+  graphics.lineTo(120+beatInsideBar*130,45)
   // Rendering the stage
   renderer.render(stage)
 },unitTime)
