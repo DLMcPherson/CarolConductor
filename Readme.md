@@ -1,6 +1,6 @@
-# Boiler Plate
-
-This is barebones boiler plate JavaScript off of which interactive browser-based applications can be built utilizing the PIXI framework.
+# Carol Conductor
+A new web-app to get all my siblings the dots, lyrics, and current chords for caroling together.
+Maybe we can get some band accompaniment going by tracking the chords together!
 
 # Execution
 Branch to gh-pages for free online hosting or execute locally with:
